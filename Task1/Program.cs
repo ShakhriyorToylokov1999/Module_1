@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Enter your username: ");
+            var username = Console.ReadLine();
+            Console.WriteLine($"Hello {username}");
         }
     }
 }
